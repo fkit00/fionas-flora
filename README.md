@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# Fiona's Flora
+Hi i'm fiona, a junior web developer who put down all this web development for a few weeks and now need to ease myself back into it!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The plan(t)
+This repo is for my efforts in making a full stack plant care app. I will be using a PERN stack, and trying to focus more on the user experince and design of the app (as it's not my strong suit)
 
-## Available Scripts
+### The backend
+The backend - also known as the fun bit, will be made with express, cors and postgreSQL. My data shape is really important to the in shaping the apps purpose
 
-In the project directory, you can run:
+#### The frontend 
+The front end- i will be designing (actually wireframing for once even though it's painfiul). I'd like a bit of pizzaz so while it should be clean, clear and mobile friendly, i have to figure out how to get a bit of funk into there. I'll have drop down options, and a custom add field. When all items are selected there will be an add plant button, which will assemble the object and send to the database. I'd like to make plant alerts for watering which will mean that i have to acess user timestamp, add that with a last watered section and a how often it need to be watered in order to send the alert. 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### The stretch 
+I want to use auth0 so i can have individual accounts - I think by having drop downs on the front/ also an option to make a custom, starting off with an empty table on the backend isn't a problem which should make individal accounts easier
