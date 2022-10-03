@@ -3,12 +3,29 @@
   background-color: #007a78
   ;
   min-height: 100vh;
+  color: white;
+  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+ 
 }
 
-.App-logo {
+.login-plant{
   height: 40vmin;
-  pointer-events: none;
+  width:40vmin
+ ;
+ }
+
+.Title{ 
+  font-size: calc(55px + 2vmin);
 }
+
+.sub-title{
+  font-size: calc(12px + 2vmin);
+ 
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -21,16 +38,11 @@
   ;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(6px + 2vmin);
+ 
   color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
