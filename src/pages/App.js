@@ -3,6 +3,12 @@ import './App.css';
 import LoginButton from '../components/login.js'
 import logo from '../planting.png'
 import { useAuth0 } from '@auth0/auth0-react';
+import NavBar from '../components/NavBar';
+
+// so now i need a nav bar 
+//nav bar will contain home, your app, and add a plant section
+// i need to map an array of objects - which will have watered status 
+
 
 function App() {
 
@@ -22,8 +28,10 @@ function App() {
     <img className="login-plant" src={logo} alt=" a plant in soil with a spade"/></div>
       ):
       <div>
-        woohoo you're in
-      </div>}
+      <NavBar/>
+      <h2>It's time to water, you dumb bitch</h2>
+      </div>
+      }
     </div>
   );
 }
