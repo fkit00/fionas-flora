@@ -13,6 +13,11 @@ The front end- i will be designing (actually wireframing for once even though it
 ### Things i need to watch out for
 My last project was in Next.js and i haven't played around with react router yet 
 I really struggle with design, so i'm just going to chill out and play around with it 
+I'm very comfortable with being able to set weekly alerts - this would be a get timestamp from user and search by day- not sure how i would do this for plants that might get watered only once every few weeks? I'll figure it out 
+
 
 #### The stretch 
-I want to use auth0 so i can have individual accounts - I think by having drop downs on the front/ also an option to make a custom, starting off with an empty table on the backend isn't a problem which should make individal accounts easier
+I want to use auth0 so i can have individual accounts - I *think* this will be done by having an ID token which performs as a refernce on the table on the backend. I haven't used auth0 before but it's always a good time to learn 
+
+#### Updates-4.10
+i kept good to my word and wireframed first, i hated it. I've created an app, created a rough version of my landing page, deployed and got authetication working on the landing page. Next i'm going to make my navbar and make sure to wrap it in an isAutheticated, so then people can't just type the url and reach through to that page. 
