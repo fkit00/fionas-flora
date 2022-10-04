@@ -11,3 +11,18 @@
     margin-bottom: 50px;
     
 }
+
+
+.buttonLogOut{
+    color: white;
+    border-radius: 8px;
+    border-color:#003938;
+    background-color:#003938;
+    font-family: 'Inter';
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+
+    margin-bottom: 50px;
+    
+}
