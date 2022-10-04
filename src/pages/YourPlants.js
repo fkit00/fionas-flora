@@ -1,17 +1,13 @@
-import React from 'react';
-
-
-
 function YourPlants() {
 
 
   return (
    
     <div className="App"> 
-    <header className="App-header">
-      <h1 className="Title">Fiona's Flora</h1>
-      </header>
-      <h2>It's time to water, you dumb bitch</h2>
+  
+      <h2>These are your plants, dun dun</h2>
       </div>
   );
 }
+
+export default YourPlants
