@@ -5,7 +5,8 @@ import './Layout.css'
 function Layout() {
     return (
         
-        <div class="dropdown">
+     <div>
+     <div class="dropdown">
     <button class="dropbtn">Dropdown 
       <i class="fa fa-caret-down"></i>
     </button>
@@ -25,10 +26,11 @@ function Layout() {
                     </li>
                 </ul>
             </nav>
+</div>
+</div>
 
             <Outlet />
-            </div>
-        </div>
+           </div>
     );
 }
 

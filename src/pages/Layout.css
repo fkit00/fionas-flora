@@ -6,6 +6,11 @@
 }
 
 
+.navbar a {
+  color: white;
+}
+
+
 .dropdown {
     float: left;
     overflow: hidden;
