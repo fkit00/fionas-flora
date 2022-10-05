@@ -21,3 +21,6 @@ I want to use auth0 so i can have individual accounts - I *think* this will be d
 
 #### Updates-4.10
 i kept good to my word and wireframed first, i hated it. I've created an app, created a rough version of my landing page, deployed and got authetication working on the landing page. Next i'm going to make my navbar and make sure to wrap it in an isAutheticated, so then people can't just type the url and reach through to that page. 
+
+#### Updates-4.10 (lunchtime)
+got navbar functionally done - it's currently very ugly but thats okay! next i'm going to write the add a plant functionallity (i know before the backend :sweat_smile:). This will help me figure out what information i want to pass back and also figure out how i'm going to send the IDToken. I also just need to change the auth) login page as it's ugly and annoying me!
