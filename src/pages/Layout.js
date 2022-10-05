@@ -5,10 +5,10 @@ import './Layout.css'
 function Layout() {
     return (
         
-     <div>
-     <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
+     <div className="layout">
+     <div className="dropdown">
+    <button className="dropbtn">Dropdown 
+
     </button>
     <div class="dropdown-content">
             <nav className="navbar">

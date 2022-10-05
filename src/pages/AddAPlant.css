@@ -4,7 +4,6 @@ form{
 }
 
 
-
 .dropdown {
     float: left;
     overflow: hidden;
@@ -47,11 +46,12 @@ form{
     background-color:#003938;
     font-family: 'Inter';
     font-size: 25px;
-    height: 100px;
-    width: 250px;
+    height: 150px;
+    width: 300px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
 
 .submit{
     color: white;
