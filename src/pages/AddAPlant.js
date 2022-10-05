@@ -59,7 +59,7 @@ return (
       <option value="onceweekly">once a week</option>
       <option value="weekandahalf">every week and a half</option>
       <option value="twoweeks">every two weeks</option>
-      <option value="deathplant">literally never, it's a sansivera</option>
+      <option value="never">literally never, it's a sansivera</option>
     </select>
     </div>
 </div>
