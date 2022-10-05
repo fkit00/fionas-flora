@@ -43,7 +43,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="yourplants" element={<YourPlants />} />
           <Route path="addaplant" element={<Add />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="404" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
