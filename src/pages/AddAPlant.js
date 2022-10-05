@@ -18,9 +18,9 @@ function handleClick(e){
   e.preventDefault();
   setplant({
     plant_name:name,
-    watering :selectValue, 
+    reminder:selectValue, 
     care:careTips,
-    wartered:lastWatered
+    last_watered:lastWatered
   })
   console.log(plant)
 } 
