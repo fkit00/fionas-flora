@@ -2,15 +2,33 @@
 // we need a form or soemthing form like 
 
 import './AddAPlant.css'
-
+import { useState } from 'react';
 
 
 function Add() {
 
 /* const [plant, setPlant]=useState({}) */
+const [name, setName] = useState("");
+const [selectValue, setSelectValue] = useState("");
+const [careTips, setCareTips] = useState("");
+const [lastWatered, setLastWatered] = useState("");
+const [plant, setplant] = useState({});
+
+function handleClick(e){
+  e.preventDefault();
+  setplant({
+    plant_name:name,
+    watering :selectValue, 
+    care:careTips,
+    wartered:lastWatered
+  })
+  console.log(plant)
+} 
 
 
-    return (
+
+
+return (
      
       <div className="App"> 
   
@@ -21,7 +39,10 @@ function Add() {
     Name
   </label>
   <div className="dropdown-content"> 
-  <input type="text" name="name"/>
+  <input type="text" name="name" onChange={(e) => {
+              setName(e.target.value);
+              console.log(name);
+            }}/>
   </div>
 </div>
 <div className="dropdown">
@@ -29,13 +50,16 @@ function Add() {
     Watering schedule:
     </label>
     <div className="dropdown-content"> 
-    <select>
+    <select defaultValue="" onChange={(e) => {
+              setSelectValue(e.target.value);
+              console.log(selectValue);
+            }}>
       <option value="">how often do you need to water</option>
       <option value="biweekly">twice a week</option>
       <option value="onceweekly">once a week</option>
       <option value="weekandahalf">every week and a half</option>
       <option value="twoweeks">every two weeks</option>
-      <option value="deathplant">literally never, it's a sansivera</option>
+      <option value="never">literally never, it's a sansivera</option>
     </select>
     </div>
 </div>
@@ -43,7 +67,10 @@ function Add() {
   <label className="dropbtn">
    Care tips</label>
    <div className="dropdown-content"> 
-    <input type="text" name="care tips"/>
+    <input type="text" name="care tips" onChange={(e) => {
+              setCareTips(e.target.value);
+              console.log(careTips);
+            }}/>
   
   </div>
 </div>
@@ -52,7 +79,10 @@ function Add() {
     Last watered
   </label>
   <div className="dropdown-content"> 
-  <select>
+  <select defaultValue="" onChange={(e) => {
+              setLastWatered(e.target.value);
+              console.log(lastWatered);
+            }}>
     <option value="0">0 days ago</option>
       <option value="1">1 days ago</option>
       <option value="2">2 days ago</option>
@@ -64,7 +94,9 @@ function Add() {
     </select>
     </div>
 </div>
-    <input className="submit" type="submit" value="Add a plant +" />
+    <input onClick={(e) => {
+            handleClick(e);
+          }} className="submit" type="submit" value="Add a plant +" />
 </form>
         </div>
     );
