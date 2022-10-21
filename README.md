@@ -16,6 +16,7 @@ I really struggle with design, so i'm just going to chill out and play around wi
 I'm very comfortable with being able to set weekly alerts - this would be a get timestamp from user and search by day- not sure how i would do this for plants that might get watered only once every few weeks? I'll figure it out 
 
 ### The wireframes - i am not a designer
+I've designed this for mobile, and have made it with the end user, however the end user is me so the app is a touch firm with the user
 ![Fiona-flora wire frames](https://user-images.githubusercontent.com/100845392/197201112-2612a121-d87e-4bb8-ae3f-de881a979f0d.png)
 
 
