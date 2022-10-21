@@ -15,6 +15,9 @@ My last project was in Next.js and i haven't played around with react router yet
 I really struggle with design, so i'm just going to chill out and play around with it 
 I'm very comfortable with being able to set weekly alerts - this would be a get timestamp from user and search by day- not sure how i would do this for plants that might get watered only once every few weeks? I'll figure it out 
 
+### The wireframes - i am not a designer
+![Fiona-flora wire frames](https://user-images.githubusercontent.com/100845392/197201112-2612a121-d87e-4bb8-ae3f-de881a979f0d.png)
+
 
 #### The stretch 
 I want to use auth0 so i can have individual accounts - I *think* this will be done by having an ID token which performs as a refernce on the table on the backend. I haven't used auth0 before but it's always a good time to learn 
