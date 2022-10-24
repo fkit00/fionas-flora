@@ -20,7 +20,7 @@ function handleClick(e){
     plant_name:name,
     reminder:selectValue, 
     care:careTips,
-    last_watered:lastWatered
+    last_watered:Number(lastWatered)
   })
   console.log(plant)
 } 

@@ -25,7 +25,7 @@ form{
     display: none;
     position: absolute;
     background-color: #003938;
-    min-width: 160px;
+    min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -37,6 +37,8 @@ form{
   
   .dropdown:hover .dropdown-content {
     display: block;
+    height: 80px;
+    width: 300px;
   }
 
 .dropbtn{
@@ -60,7 +62,7 @@ form{
     background-color:#003938;
     font-family: 'Inter';
     font-size: 25px;
-    height: 100px;
+    height: 80px;
     width: 250px;
     margin-top: 20px;
     margin-bottom: 50px;

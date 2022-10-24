@@ -17,16 +17,19 @@
 
 
 .dropdown {
-    float: center;
-    overflow: hidden;
+/*     float: center; */
+  
+    margin: auto;
   }
   
   .dropdown .dropbtn {
     font-size: 16px;  
+    height: 30px;
+    width: 160px;
     border: none;
     outline: none;
     color: white;
-    padding: 6px 6px;
+    padding: 3px 3px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -41,22 +44,28 @@
     display: none;
     position: absolute;
     background-color: #003938;
-   /*  min-width: 160px; */
+    width:120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+   
   }
   
   .dropdown-content a {
     float: none;
     color: white;
-    padding: 12px 16px;
+    padding: 3px 3px;
+    
     text-decoration: none;
     display: block;
     text-align: center;
+    font-size: 16px;
   }
   
  
   
   .dropdown:hover .dropdown-content {
-    display: block;
+    display:block;
+    flex-direction: column;
+ 
+   
   }
