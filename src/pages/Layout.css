@@ -3,6 +3,7 @@
   flex-direction: column;
 }
 
+/* i can't chnage layout becaus ethat's whats going to render the child */
 
 .navbar ul {
     list-style: none;
@@ -21,12 +22,13 @@
 .dropdown {
 /*     float: center; */
   
-    margin: auto;
+    margin: auto; 
+   
   }
   
   .dropdown .dropbtn {
     font-size: 16px;  
-    height: 30px;
+   height: 30px;
     min-width:120px;
     border: none;
     outline: none;
@@ -58,16 +60,16 @@
     padding: 3px 3px;
     
     text-decoration: none;
-    display: block;
-    text-align: center;
+  display: block;
+    text-align: center; 
     font-size: 16px;
   }
   
  
   
   .dropdown:hover .dropdown-content {
-    display:block;
+  /*   display:block;
     flex-direction: column;
- 
+  */
    
   }

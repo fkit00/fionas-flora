@@ -31,10 +31,12 @@ function App() {
       <h1 className="Title">Fiona's Flora</h1>
       </header>
       {!isAuthenticated ? (
-        <div>
-      <h2 className="sub-title"> The plant app for people who can't keep their shit together</h2>
-      <LoginButton/>     
-    <img className="login-plant" src={logo} alt=" a plant in soil with a spade"/></div>
+       <div>
+      <h2 className="sub-title"> The plant app for people who can't keep their stuff together</h2>
+      <LoginButton/>    <div>
+    <img className="login-plant" src={logo} alt=" a plant in soil with a spade"/>
+    </div>
+    </div>
       ):
       <div>
       <BrowserRouter>
