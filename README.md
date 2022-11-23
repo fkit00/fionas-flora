@@ -17,7 +17,7 @@ I'm very comfortable with being able to set weekly alerts - this would be a get 
 
 ### The wireframes - i am not a designer
 I've designed this for mobile, and have made it with the end user in mind, however the end user is me so the app is a touch firm with the user. I benefit from the stick not the carrot, and this app truly pritotises the health and wellbeing of your plants over you!
-![Fiona-flora wire frames](https://user-images.githubusercontent.com/100845392/197201112-2612a121-d87e-4bb8-ae3f-de881a979f0d.png)
+![Fiona-flora wire frames](![image](https://user-images.githubusercontent.com/100845392/203579373-afb7cc1e-094c-486d-913a-58378ffc80e1.png)
 
 
 #### The stretch 
